@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mustafa.myapplication.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000">
+        <ImageView
+            android:scaleType="centerCrop"
+            android:id="@+id/image1"
+            android:src="@drawable/tea"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:background="#FFFFFF"
+            android:padding="6dp"
+            android:onClick="openTeaList(View v)"
+            />
+
+        <TextView
+            android:id="@+id/text1"
+
+
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/image1"
+            android:layout_alignStart="@+id/image1"
+            android:layout_below="@+id/image1"
+            android:background="#FFF"
+            android:text="\t\t\t\tTea"
+            android:textStyle="bold" />
+        <ImageView
+            android:scaleType="centerCrop"
+            android:id="@+id/image2"
+            android:src="@drawable/coffee"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="20dp"
+
+            android:background="#FFF"
+
+            />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image2"
+            android:background="#FFF"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="50dp"
+            android:text="\t\t\tCoffee"
+            android:textStyle="bold"
+
+
+            />
+        <ImageView
+            android:id="@+id/image3"
+            android:scaleType="centerCrop"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/text1"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/paratha"
+            android:padding="6dp"
+            android:background="#FFF"
+
+
+
+            />
+<TextView
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:background="#FFF"
+    android:layout_below="@id/image3"
+    android:layout_marginLeft="50dp"
+    android:text="\t\t\tParatha"
+    android:textStyle="bold"
+    android:padding="6dp"
+
+    />
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
