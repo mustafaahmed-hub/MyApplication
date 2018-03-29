@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "25677337355",
+    "firebase_url": "https://signinproject-7a32e.firebaseio.com",
+    "project_id": "signinproject-7a32e",
+    "storage_bucket": "signinproject-7a32e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25677337355:android:e7d80d89bb9f9867",
+        "android_client_info": {
+          "package_name": "socialmedia.mustafa.example.com.firebaseanthentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "25677337355-9j48s8hd9ihabek8hlv8csq8nn7lc464.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "socialmedia.mustafa.example.com.firebaseanthentication",
+            "certificate_hash": "afc7ba1d5f9c684bf5d588de21170972d392b06d"
+          }
+        },
+        {
+          "client_id": "25677337355-3k9mkkhe7qem7s9plr0m71k3ff15tk1j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaOFA_D3wcZPTmbgo63-XH9Jat_HofzcI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "25677337355-3k9mkkhe7qem7s9plr0m71k3ff15tk1j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
